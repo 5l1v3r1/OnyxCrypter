@@ -11,8 +11,3 @@ OnyxCrypter is a simple test to see how a stub loads an executable, I was rather
 * Place both executables in the same directory
 * Run OnyxBuilder and select the file you want to put in the stub's resources
 * Run the stub and you will see there is a new executable which should be the same as the executable you selected in the previous step
-
-## Todo
-* Add RunPE
-* Remove file dropping
-* Add encryption to the resources.
