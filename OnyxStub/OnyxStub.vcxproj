@@ -123,6 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,6 +153,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OnyxStub.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Encrypt.h" />
+    <ClInclude Include="RunPE.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
